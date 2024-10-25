@@ -11,7 +11,7 @@ from keras.preprocessing import image  # Added for compatibility with the origin
 from Skin_class import skin_tone  # Import the skin tone classification function
 import google.generativeai as genai
 
-GOOGLE_API_KEY = "AIzaSyAakCO0wQdenLCBv7lZphEWoAjounEnFGw"
+GOOGLE_API_KEY = ""
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Load model and processor
